@@ -1,0 +1,19 @@
+{% load index %}
+
+{% if form %}
+    {% if query %}<br><p class="text-center">Query results from : <strong>{{ query }}</strong></p><br>{% endif %}
+    {% if notif %}
+        <p class="lead">{{ notif }}</p>
+    {% endif %}
+    {% for img in result %}
+        {% if forloop.counter0 == 0 or forloop.counter0|divisibleby:6 %}<div class="row">{% endif %}
+            <div class="col-sm-2">
+                <div class="image-container">
+                    <a href="{{ img }}" target="_blank"><img src="{{ img }}" class="img-thumbnail img-responsive img-rounded" style="height: 130px; "/></a>
+                    <div class="text-center"><strong class="text-success">{{ name|index:forloop.counter0 }}</strong></div>
+                    <p class="lead text-center">CS : <strong class="text-success">{{ similar|index:forloop.counter0 }}</strong></p>
+                </div>
+            </div>
+        {% if forloop.counter|divisibleby:6 %}</div>{% endif %}
+    {% endfor %}
+{% endif %}

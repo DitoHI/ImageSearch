@@ -1,0 +1,538 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Dito Hafizh - CV</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+   <link rel="stylesheet" href="{% static 'css/default.css' %}">
+	<link rel="stylesheet" href="{% static 'css/layout.css' %}">
+   <link rel="stylesheet" href="{% static 'css/media-queries.css' %}">
+   <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+
+   <!-- Script
+   ================================================== -->
+	<script src="{% static 'javascript/modernizr.js' %}"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="{% static 'logo_cv.png' %}" >
+
+</head>
+
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul>
+
+      </nav>
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Dito Hafizh</h1>
+            <h3 style="background: #2B2B2B; padding: 10px; border-radius: 30px; ">Have a profession as Polytechnic's College Student majoring in Informatic Engineering</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.facebook.com/dito.hafizh"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://www.twitter.com/DitoHafizh"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://www.instagram.com/ditohafizh/"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="{% static 'images/dito.png' %}" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>I am the eldest child of three children. I have been loving of literature and the culture of Indonesia. I have an inspiration to make Indonesia better especially in advancing technology for agriculture problems solver and e-commerce growth
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Dito Hafizh Indriarto</span><br>
+						   <span>Rayan Regency J 22<br>
+						         Wiyung Surabaya
+                     </span><br>
+						   <span>085730084960</span><br>
+					   </p>
+
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Electronic Engineering Polytechnic Institute of Surabaya</h3>
+                  <p class="info">Bachelor of Informatic Engineering <span>&bull;</span> <em class="date">August 2014</em></p>
+
+                  <p>
+                  Developing and Specializing in Informatic Engineering
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Senior High School Twenty One</h3>
+                  <p class="info">Science <span>&bull;</span> <em class="date">July 2011</em></p>
+
+                  <p>
+                  Doing high school session in science
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>PT Semen Indonesia</h3>
+                  <p class="info">Programmer<span>&bull;</span> <em class="date">January 2017</em></p>
+
+                  <p>
+                  My team including three college students of EEPIS did an internship for a month as a programmer developing information system of inventory in PT Semen Indonesia, Tbk
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+      <!-- Experience (Edition of edited work)
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Experience</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Student Council of EEPIS</h3>
+                  <p class="info">Minister of Foreign Affairs<span>&bull;</span> <em class="date">2016-2017</em></p>
+
+                  <p>
+                  Lead the mission of the Student Council of EEPIS 2016/2017 in the scope of external campus
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Communication Forum of Indonesian Polytechnic Students</h3>
+                  <p class="info">Regional Coordinator<span>&bull;</span> <em class="date">2016-2017</em></p>
+
+                  <p>
+                  Lead the communication and social/politic movement of college students throughout East Java Area, Indonesia
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+            <div class="bars">
+
+               <ul class="skills">
+                  <li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>
+                  <li><span class="bar-expand illustrator"></span><em>Java</em></li>
+                  <li><span class="bar-expand wordpress"></span><em>C#</em></li>
+                  <li><span class="bar-expand css"></span><em>Python</em></li>
+                  <li><span class="bar-expand html5"></span><em>PHP</em></li>
+               </ul>
+
+            </div><!-- end skill-bars -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Works.</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+                <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="{% static 'images/portfolio/komiku.png' %}">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                              <h5>Komiku</h5>
+                              <p>Android Application - Image Editing as implementation of Image Processing</p>
+                           </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+               </div> <!-- item end -->
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="{% static 'images/portfolio/anti_rapist.png' %}">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                              <h5>Anti Rapist</h5>
+                              <p>Location Based Service - build by Android Studio</p>
+                           </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+               </div> <!-- item end -->
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="{% static 'images/portfolio/koogle.png' %}">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Kampus Google</h5>
+                              <p>Search Engine - php development</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="{% static 'images/portfolio/searchfyf.png' %}">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                              <h5>Search For Your FLags</h5>
+                              <p>Content Based Image Retrieval - build by Phyton</p>
+                           </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+               </div> <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+         <div class="twelve columns collapsed">
+            <!-- portfolio-wrapper -->
+            <div class="bgrid-quarters s-bgrid-thirds cf">
+                <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="">
+                        <img alt="" src="{% static 'images/portfolio/MIC_font.png' %}">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                              <h5>Multiband Image Clustering</h5>
+                              <p>Web Application - Implementation of clustering on multiband image</p>
+                           </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+               </div> <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+            <img class="scale-with-grid" src="{% static 'images/portfolio/modals/komiku_font.png' %}" alt=""/>
+
+            <div class="description-box">
+               <h4>Mobile Application utilizing in Image Processing</h4>
+               <p><strong>Build with: </strong>Java, XML, Android Studio</p>
+               <em>*the material of this project is just made for education purpose only. Big thanks to Google and the publishers</em>
+            </div>
+
+            <div class="link-box">
+               <a href="https://github.com/SInichiKudo/komiku.git" target="_blank">Source Code (Git)</a>
+               <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+         </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+            <img class="scale-with-grid" src="{% static 'images/portfolio/modals/anti_rapist_font.png' %}" alt=""/>
+
+            <div class="description-box">
+               <h4>Mobile Application utilizing in Location Based Services</h4>
+               <p><strong>Build with: </strong>Java, XML, Android Studio</p>
+               <em>*the material of this project is just made for education purpose only. Big thanks to Google and the publishers</em>
+            </div>
+
+            <div class="link-box">
+               <a href="https://www.youtube.com/watch?v=j-Q0PaGOWpo" target="_blank" style="margin-right: 20px;">Advertising Video</a>
+               <a href="https://www.youtube.com/watch?v=gRVfTCQwzPE" target="_blank">Work of Flow Video</a>
+               <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+         </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="{% static 'images/portfolio/modals/koogle.png' %}" alt="" />
+
+		      <div class="description-box">
+			      <h3>Kampus Google</h3>
+			      <h4>Search Engine specialized in finding any articles about campus</h4>
+                 <p><strong>Build with: </strong>PHP, HTML, CSS, Javascript, MySQL</p>
+                 <em>*the material of this project is just made for education purpose only. Big thanks to Google and the publishers</em>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://4bitclass.com/dito/searchEngine" target="_blank">See Project</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+            <img class="scale-with-grid img-rounded" src="{% static 'images/portfolio/modals/search_flag.png' %}" alt="" />
+
+            <div class="description-box">
+               <h4>Image Search in scope of area Content Based Retrieval. Optimized in querying based on color and shape</h4>
+               <p><strong>Build with: </strong>Python, Django, HTML, CSS, Javascript, PostgreSQL</p>
+               <em>*the material of this project is just made for education purpose only. Big thanks to Google and the publishers</em>
+            </div>
+
+            <div class="link-box">
+               <a href="{% url 'color' %}" target="_blank">See Project</a>
+               <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+         </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+            <img class="scale-with-grid img-rounded" src="{% static 'images/portfolio/modals/MIC_font.png' %}" alt="" />
+
+            <div class="description-box">
+               <h4>Image Clustering advanced in machine learning method. Using k-means with genetic algorithm</h4>
+               <p><strong>Build with: </strong>Python, Django, HTML, CSS, Javascript, PostgreSQL</p>
+               <em>*the material of this project is just made for education purpose only. Big thanks to Google and the publishers</em>
+            </div>
+
+            <div class="link-box">
+               <a href="{% url 'multiband' %}" target="_blank">See Project</a>
+               <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+         </div><!-- modal-05 End -->
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead">Send any message to ditohafizh@gmail.com
+                  </p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+            <aside class="footer-widgets">
+               <div class="widget widget_contact">
+               <h4>Address and Phone</h4>
+               <p class="address">
+                  Dito Hafizh Indriarto<br>
+                  Rayan Regency J 22<br>
+                  Wiyung Surabaya<br>
+                  <span>0857 30084960</span>                  
+               </p>
+               </div>
+            </aside>
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2017. Template by styleshout.com (link <a href="https://www.styleshout.com/free-templates/ceevee/" target="_blank">here</a>). Edited by Dito Hafizh </li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+      </div>
+   </footer>
+   <script src="{% static 'javascript/jquery-1.10.2.min.js' %}"></script>
+   <script>window.jQuery || document.write('<script src="{% static 'javascript/jquery-1.10.2.min.js' %}"><\/script>')</script>
+   <script type="text/javascript" src="{% static 'javascript/jquery-migrate-1.2.1.min.js' %}"></script>
+
+   <script src="{% static 'javascript/jquery.flexslider.js' %}"></script>
+   <script src="{% static 'javascript/waypoints.js' %}"></script>
+   <script src="{% static 'javascript/jquery.fittext.js' %}"></script>
+   <script src="{% static 'javascript/magnific-popup.js' %}"></script>
+   <script src="{% static 'javascript/init.js' %}"></script>
+
+</body>
+
+</html>
