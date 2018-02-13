@@ -4,7 +4,7 @@
 
 ##### Important : This apps implement __django framework__. So you must install django first
 
-** Features :**
+**Features :**
 * Image Searching based on Color __or__ Shape
 * Color : pixel extracting
 * Shape : __Fast Fourier Transform__ to detect the edge of image
